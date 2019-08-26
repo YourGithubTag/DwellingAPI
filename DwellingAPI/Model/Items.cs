@@ -9,14 +9,14 @@ namespace DwellingAPI.Model
     {
         [Column("ItemID")]
         public int ItemId { get; set; }
-        public int? Room { get; set; }
+        public string Room { get; set; }
         [StringLength(100)]
         public string ItemName { get; set; }
         [StringLength(200)]
         public string Description { get; set; }
-        public int? Tag { get; set; }
-        public int? Category { get; set; }
-        public int? Wear { get; set; }
+        public string Tag { get; set; }
+        public string Category { get; set; }
+        public string Wear { get; set; }
         public int? ItemPriority { get; set; }
         [StringLength(7)]
         public string Starred { get; set; }

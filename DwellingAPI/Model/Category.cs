@@ -7,10 +7,6 @@ namespace DwellingAPI.Model
 {
     public partial class Category
     {
-        public Category()
-        {
-            Items = new HashSet<Items>();
-        }
 
         [Column("CategoryID")]
         public int CategoryId { get; set; }

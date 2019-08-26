@@ -55,20 +55,6 @@ namespace DwellingAPI.Model
 
                 entity.Property(e => e.Starred).IsUnicode(false);
 
-                entity.HasOne(d => d.CategoryNavigation)
-                    .WithMany(p => p.Items)
-                    .HasForeignKey(d => d.Category)
-                    .HasConstraintName("FK__Items__Category__5629CD9C");
-
-                entity.HasOne(d => d.RoomNavigation)
-                    .WithMany(p => p.Items)
-                    .HasForeignKey(d => d.Room)
-                    .HasConstraintName("FK__Items__Room__5441852A");
-
-                entity.HasOne(d => d.TagNavigation)
-                    .WithMany(p => p.Items)
-                    .HasForeignKey(d => d.Tag)
-                    .HasConstraintName("FK__Items__Tag__5535A963");
             });
 
             modelBuilder.Entity<Rooms>(entity =>
