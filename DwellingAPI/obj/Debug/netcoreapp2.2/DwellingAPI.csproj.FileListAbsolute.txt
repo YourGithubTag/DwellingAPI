@@ -1,0 +1,14 @@
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\bin\Debug\netcoreapp2.2\DwellingAPI.deps.json
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\bin\Debug\netcoreapp2.2\DwellingAPI.runtimeconfig.json
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\bin\Debug\netcoreapp2.2\DwellingAPI.runtimeconfig.dev.json
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\bin\Debug\netcoreapp2.2\DwellingAPI.dll
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.csprojAssemblyReference.cache
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.csproj.CoreCompileInputs.cache
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.RazorAssemblyInfo.cache
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.RazorAssemblyInfo.cs
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.AssemblyInfoInputs.cache
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.AssemblyInfo.cs
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.RazorTargetAssemblyInfo.cache
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\bin\Debug\netcoreapp2.2\DwellingAPI.pdb
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.dll
+C:\Users\nickk\source\repos\DwellingAPI\DwellingAPI\obj\Debug\netcoreapp2.2\DwellingAPI.pdb
