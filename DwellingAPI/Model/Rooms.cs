@@ -7,11 +7,6 @@ namespace DwellingAPI.Model
 {
     public partial class Rooms
     {
-        public Rooms()
-        {
-            Items = new HashSet<Items>();
-        }
-
         [Column("RoomID")]
         public int RoomId { get; set; }
         [StringLength(1)]
@@ -20,7 +15,6 @@ namespace DwellingAPI.Model
         [StringLength(100)]
         public string RoomName { get; set; }
 
-        [InverseProperty("RoomNavigation")]
-        public virtual ICollection<Items> Items { get; set; }
+    
     }
 }

@@ -17,8 +17,5 @@ namespace DwellingAPI.Model
         [Column("Category")]
         [StringLength(1)]
         public string Category1 { get; set; }
-
-        [InverseProperty("CategoryNavigation")]
-        public virtual ICollection<Items> Items { get; set; }
     }
 }

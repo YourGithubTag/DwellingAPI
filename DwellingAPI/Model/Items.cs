@@ -20,15 +20,5 @@ namespace DwellingAPI.Model
         public int? ItemPriority { get; set; }
         [StringLength(7)]
         public string Starred { get; set; }
-
-        [ForeignKey("Category")]
-        [InverseProperty("Items")]
-        public virtual Category CategoryNavigation { get; set; }
-        [ForeignKey("Room")]
-        [InverseProperty("Items")]
-        public virtual Rooms RoomNavigation { get; set; }
-        [ForeignKey("Tag")]
-        [InverseProperty("Items")]
-        public virtual Tags TagNavigation { get; set; }
     }
 }
